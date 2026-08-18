@@ -1,0 +1,15 @@
+{
+  "name": "financa-sync-v2",
+  "version": "2.0.0",
+  "description": "Financa to Shopify automatic synchronization system",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3"
+  }
+}
